@@ -1,0 +1,30 @@
+{
+  "name": "command-line-app",
+  "version": "1.0.0",
+  "description": "A command line application that scans the files and checks if the file abides by a coding style – guide",
+  "main": "src/index.js",
+  "bin": {
+    "command-line-app": "bin/command-line-app"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cli",
+    "command-line-app"
+  ],
+  "author": "rotonda mulelu",
+  "license": "MIT",
+  "dependencies": {
+    "arg": "^5.0.0",
+    "chalk": "^4.1.1",
+    "esm": "^3.2.25",
+    "execa": "^5.0.0",
+    "inquirer": "^8.1.0",
+    "listr": "^0.14.3",
+    "pkg-install": "^1.0.0"
+  }
+}
